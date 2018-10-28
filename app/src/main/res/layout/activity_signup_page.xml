@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:hint="Email"
+        android:layout_margin="8dp"
+        android:id="@+id/emailReg"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:hint="Password"
+        android:layout_margin="8dp"
+        android:id="@+id/passwordReg"
+        android:inputType="textPassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:hint="Verify Password"
+            android:layout_margin="8dp"
+            android:id="@+id/VpasswordReg"
+            android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:id="@+id/signupBtn"
+            android:text="Signup"
+            android:textAlignment="center"
+            android:background="#79797979"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
