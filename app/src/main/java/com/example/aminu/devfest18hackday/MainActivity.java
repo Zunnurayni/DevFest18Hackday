@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
+        //check if user is logged in
+
         if (currentUser == null) {
 
             Intent mainIntent = new Intent(MainActivity.this, LoginPage.class);
